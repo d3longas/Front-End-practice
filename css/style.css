@@ -40,6 +40,31 @@ img{
     font-size: 16px;
     color: hsl(215, 51%, 70%);
 }
+.overlay{
+    width: 300px;
+    height: 300px;
+    border: 1px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 185px;
+    display: block;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0%;
+}
+.overlay:hover{
+    opacity: 50%;
+}
+.image:hover .view{
+    opacity: 100%;
+}
+.view{
+    display: block;
+    margin: 40% auto;
+    width: 20%;
+    border: 1px;
+    border-radius: 10px;
+    opacity: 100%;
+}
 
 .eth{
     float: left;
