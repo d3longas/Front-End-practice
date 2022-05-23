@@ -22,7 +22,9 @@ a:hover{
     margin: 8% auto;
     padding: 20px;
     background-color: hsl(216, 50%, 16%);
-    border: 2px;
+    border: 20px solid hsl(217, 56%, 10%);
+    border-bottom: 40px solid hsl(217, 56%, 10%);
+    border-top: 40px solid hsl(217, 56%, 10%);
     border-radius: 15px;
 }
 
@@ -55,8 +57,7 @@ img{
     line-height: 68px;
 }
 hr{
-    
-    opacity: 40%;
+    color: hsl(215, 32%, 27%);
     clear: both;
 }
 
